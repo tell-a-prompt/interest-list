@@ -10,6 +10,7 @@ import {
   HStack,
   IconButton,
   IconButtonProps,
+  Text,
   useBreakpointValue,
   useDisclosure,
 } from '@chakra-ui/react';
@@ -60,21 +61,7 @@ export function Header() {
             <Logo />
             {isDesktop ? (
               <Flex as="nav" flex="1" justify="space-between">
-                <HStack spacing={8}>
-                  <NavItem as={Link} to="/" activeClassName="active">
-                    Home
-                  </NavItem>
-                </HStack>
 
-                <HStack spacing={8}>
-                  <NavIconItem
-                    as="a"
-                    href="//github.com/South-Paw/awesome-gatsby-starter"
-                    target="_blank"
-                    icon={<SiGithub fontSize="1.5rem" />}
-                    aria-label="GitHub"
-                  />
-                </HStack>
               </Flex>
             ) : (
               <IconButton
@@ -101,6 +88,9 @@ export function Header() {
                 </HStack>
               </Container>
             </Box>
+            <HStack spacing={2} shouldWrapChildren>
+              <Text>Nothing Here!</Text>
+            </HStack>
           </DrawerContent>
         </Drawer>
       )}

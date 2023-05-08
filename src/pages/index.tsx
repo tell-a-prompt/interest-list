@@ -1,4 +1,4 @@
-import { Button, Code, Stack, Text } from '@chakra-ui/react';
+import { Button, Code, Stack, Text, Box } from '@chakra-ui/react';
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { Container } from '../components/Container';
@@ -14,26 +14,80 @@ export default function IndexPage() {
       <Container p={6}>
         <Stack spacing={8} shouldWrapChildren>
           <PageHeader
-            title="@south-paw/awesome-gatsby-starter"
-            subtitle="👌 A starter for Gatsby 4 with TypeScript, Chakra UI, ESLint and Prettier."
+            title="Your Storytelling Companion"
+            subtitle="Tellaprompt helps you create the best possible version of your story. Our AI-powered tool interviews you, listens attentively, and adapts in real-time like a true professional. And the magic doesn't stop there - with automated editing and publishing, you'll be able to produce polished content faster than ever before."
           />
 
           <Stack spacing={2} shouldWrapChildren>
-            <Text>Use this starter for your new project by running the following command:</Text>
-            <Code py={2} px={3} borderRadius="lg">
-              npx gatsby new your-projects-name https://github.com/South-Paw/awesome-gatsby-starter
-            </Code>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe2Z8JtNQi85UyuL0N0ouMr05BbxPh5THpHMGRi8U7D6wBaEg/viewform?embedded=true" width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
           </Stack>
 
-          <Button
-            as="a"
-            href="//github.com/South-Paw/awesome-gatsby-starter"
-            rightIcon={<HiArrowNarrowRight fontSize="1.25rem" />}
-            variant="link"
-            colorScheme="blue"
-          >
-            Check out the README on GitHub
-          </Button>
+          <Stack>
+            <Text align='center' fontSize='md'>We secured these socials but are too busy on the MVP to post:</Text>
+          </Stack>
+
+          <Stack>
+              <Button
+              as="a"
+              href="https://www.facebook.com/tellaprompt"
+              rightIcon={<HiArrowNarrowRight fontSize="1.25rem" />}
+              variant="link"
+              colorScheme="blue"
+            >
+              Facebook
+            </Button>
+
+              <Button
+              as="a"
+              href="https://www.instagram.com/tellaprompt/"
+              rightIcon={<HiArrowNarrowRight fontSize="1.25rem" />}
+              variant="link"
+              colorScheme="blue"
+            >
+              Instagram
+            </Button>
+
+              <Button
+              as="a"
+              href="https://www.reddit.com/user/tellaprompt"
+              rightIcon={<HiArrowNarrowRight fontSize="1.25rem" />}
+              variant="link"
+              colorScheme="blue"
+            >
+              Reddit
+            </Button>
+
+              <Button
+              as="a"
+              href="https://www.tiktok.com/@tellaprompt"
+              rightIcon={<HiArrowNarrowRight fontSize="1.25rem" />}
+              variant="link"
+              colorScheme="blue"
+            >
+              TikTok
+            </Button>
+
+              <Button
+              as="a"
+              href="https://twitter.com/Tellaprompt"
+              rightIcon={<HiArrowNarrowRight fontSize="1.25rem" />}
+              variant="link"
+              colorScheme="blue"
+            >
+              Twitter
+            </Button>
+
+              <Button
+              as="a"
+              href="https://www.youtube.com/@Tellaprompt"
+              rightIcon={<HiArrowNarrowRight fontSize="1.25rem" />}
+              variant="link"
+              colorScheme="blue"
+            >
+              YouTube
+            </Button>
+          </Stack>
+
         </Stack>
       </Container>
     </Page>

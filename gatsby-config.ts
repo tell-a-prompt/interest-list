@@ -2,11 +2,11 @@ import { GatsbyConfig } from 'gatsby';
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    siteUrl: 'https://awesome-gatsby-starter.netlify.app',
+    siteUrl: 'https://tellaprompt-interest-list.web.app/',
     defaultSeo: {
-      title: 'Awesome Gatsby Starter',
-      description: '👌 A starter for Gatsby 4 with TypeScript, Chakra UI, ESLint and Prettier.',
-      keywords: ['gatsby'],
+      title: 'Tellaprompt',
+      description: 'Join the interest list today.',
+      keywords: ['tellaprompt'],
     },
     pageTitleSeparator: ' • ',
   },

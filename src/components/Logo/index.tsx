@@ -6,7 +6,7 @@ export function Logo() {
     <HStack spacing={1}>
       <Image src="/icon.png" boxSize={8} />
       <Text as="div" color="rgba(255, 255, 255, 0.9)" fontSize={['md', 'lg']} fontWeight="medium">
-        Awesome Gatsby Starter
+        Tellaprompt
       </Text>
     </HStack>
   );
