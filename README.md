@@ -1,3 +1,5 @@
+<img width="912" alt="tellaprompt-interest-list" src="https://github.com/tell-a-prompt/interest-list/assets/131230448/1c14d980-3ead-4e65-93e3-1ffa85554854">
+
 # @south-paw/awesome-gatsby-starter
 
 👌 A starter for Gatsby 4 with TypeScript, Chakra UI, ESLint and Prettier.
